@@ -31,7 +31,7 @@ namespace SG
         public float cameraCollisionOffSet = 0.2f;
         public float minimumCollisionOffSet = 0.2f;
 
-        private void Start()
+        private void Awake()
         {
             singleton = this;
             myTransform = transform;
